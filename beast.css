@@ -1,0 +1,146 @@
+body{
+    position: absolute;
+    min-height: 1080;
+    width: 1920;
+    font-family: 'MedievalSharp', cursive;
+    font-style: normal;
+    margin: 0px;
+}
+
+.header{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    background-color: rgba(21, 18, 18, 0.773);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: white;
+    top: 0px;
+    left: 0px;
+}
+
+.left_header{
+    
+    overflow: hidden;
+}
+
+.left_header:hover, .main_icons:hover{
+    cursor: pointer;
+}
+
+.left_header_photo{
+    
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: conatin;
+    
+}
+
+
+
+.game_title{
+    justify-content: center;
+}
+
+.middle_header,
+.names{
+   display: grid;
+   place-items: center;
+}
+
+.player_icons{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.main_icons{
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+}
+
+.main{
+    margin-top: 130px;
+
+}
+
+.names{
+    padding-top: 5px;
+}
+
+.icon_bar{
+    display: grid;
+    justify-items: center;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0px;
+}
+
+
+
+.title_box{
+    display: grid;
+    justify-items: center;
+}
+
+.page_title{
+    font-size: 80px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.item_list{
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+
+}
+
+.mainItem{
+    display: flex;
+    
+}
+
+.mainItemPic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+    border-radius: 15px;
+    
+}
+
+.mainItemInfo{
+   flex: 1;
+   padding-left: 20px;
+   
+}
+
+.itemPic{
+    width: 120px;
+    height: 120px;
+}
+
+p{
+    margin: 0px;
+    padding-bottom: 5px;
+}
